@@ -1,0 +1,38 @@
+.header-nav{
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+    background-color: #fff;
+
+
+       & .container{
+           border: 1px solid black;
+       }
+
+    
+    & .nav-list{
+        display: flex;
+        align-items: center;
+        margin-right: 100px;
+
+       & .nav-item{
+            margin-left: 50px;
+
+           & .nav-link{
+                @extend %link;
+            }
+        }
+        
+    }
+    & .nav-btn{
+        @extend %btn;
+    }
+}
+
+
+
+
+
+

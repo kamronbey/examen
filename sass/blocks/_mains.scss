@@ -1,0 +1,60 @@
+.main{
+    background-image: url("../img/Bitmap1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 105px;
+    margin-top: 80px;
+
+     & .container{
+        position: relative;
+    }
+
+      & .main-heading{
+        margin: 0;
+        font-family: "Space Mono";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 56px;
+        line-height: 56px;
+        letter-spacing: -2.5px;
+        color: #FFFFFF;
+    }
+
+    & .main-text{
+        font-family: "Lexend Deca";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 25px;
+        color: #FFFFFF;
+        padding: 30px 0;
+        padding-left: 100px;
+    }
+
+    & .main-btn{
+        @extend %btn;
+        // margin-left: 130px;
+    }
+
+    & .main-img1{
+        position: absolute;
+        left: -10%;
+        top: 55%;
+    }
+
+    & .main-img2{
+        position: absolute;
+        left: 53%;
+        top: 53%;
+    }
+}
+
+
+
+
+
+
+
+
+

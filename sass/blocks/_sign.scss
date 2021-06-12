@@ -1,0 +1,25 @@
+.sign{
+    background-image: url("../img/Mask3.png");
+        background-position: center right;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 120px 0;
+
+    & .sign-box{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        
+
+        & .sign-title{
+            font-family: "Space Mono";
+            font-style: normal;
+            font-weight: bold;
+            font-size: 48px;
+            line-height: 48px;
+            letter-spacing: -2.14286px;
+            color: #FFFFFF;
+
+        }
+    }
+}

@@ -1,0 +1,53 @@
+%btn{
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #FCB72B;
+    border: 3px solid #FCB72B;
+    padding: 14px 39px;
+    transition: .5s;
+    cursor: pointer;
+
+    &:hover{
+        background-color: #FFFFFF;
+        color: #FCB72B;
+    }
+}
+
+%link{
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+    color: #939CAA;
+    transition: .5s;
+
+    &:hover{
+        color: #FCB72B;
+    }
+}
+
+%link2{
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #FCB72B;
+    border: 2px solid #FCB72B;
+    padding: 14px 39px;
+    transition: .5s;
+    cursor: pointer;
+
+    &:hover{
+        background-color: #FFFFFF;
+        color: #FCB72B;
+    }
+}

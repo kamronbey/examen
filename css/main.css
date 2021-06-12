@@ -1,0 +1,423 @@
+.header-nav {
+  z-index: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 15px;
+  background-color: #fff;
+}
+
+.header-nav .container {
+  border: 1px solid black;
+}
+
+.header-nav .nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 100px;
+}
+
+.header-nav .nav-list .nav-item {
+  margin-left: 50px;
+}
+
+.main {
+  background-image: url("../img/Bitmap1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 105px;
+  margin-top: 80px;
+}
+
+.main .container {
+  position: relative;
+}
+
+.main .main-heading {
+  margin: 0;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 56px;
+  letter-spacing: -2.5px;
+  color: #FFFFFF;
+}
+
+.main .main-text {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  color: #FFFFFF;
+  padding: 30px 0;
+  padding-left: 100px;
+}
+
+.main .main-img1 {
+  position: absolute;
+  left: -10%;
+  top: 55%;
+}
+
+.main .main-img2 {
+  position: absolute;
+  left: 53%;
+  top: 53%;
+}
+
+.header-nav .nav-btn, .main .main-btn {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
+  background: #FCB72B;
+  border: 3px solid #FCB72B;
+  padding: 14px 39px;
+  -webkit-transition: .5s;
+  transition: .5s;
+  cursor: pointer;
+}
+
+.header-nav .nav-btn:hover, .main .main-btn:hover {
+  background-color: #FFFFFF;
+  color: #FCB72B;
+}
+
+.header-nav .nav-list .nav-item .nav-link, .footer .footer-box .footer-list .footer-item .footer-link {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 25px;
+  color: #939CAA;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.header-nav .nav-list .nav-item .nav-link:hover, .footer .footer-box .footer-list .footer-item .footer-link:hover {
+  color: #FCB72B;
+}
+
+.easy .easy-list .easy-item .easy-link {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
+  background: #FCB72B;
+  border: 2px solid #FCB72B;
+  padding: 14px 39px;
+  -webkit-transition: .5s;
+  transition: .5s;
+  cursor: pointer;
+}
+
+.easy .easy-list .easy-item .easy-link:hover {
+  background-color: #FFFFFF;
+  color: #FCB72B;
+}
+
+.locate {
+  padding: 80px 0;
+}
+
+.locate .container {
+  position: relative;
+}
+
+.locate .locate-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.locate .locate-list .locate-item {
+  margin-left: 200px;
+  z-index: 2;
+}
+
+.locate .locate-list .locate-img {
+  z-index: 2;
+}
+
+.locate .locate-list::before {
+  z-index: 0;
+  content: "";
+  width: 85%;
+  height: 16px;
+  background-color: #E5ECF4;
+  top: 16%;
+  left: -10%;
+  position: absolute;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.locate .locate-second-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 60px;
+}
+
+.locate .locate-second-list .locate-second-item .locate-heading {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -1.07143px;
+  color: #495567;
+  margin-bottom: 20px;
+}
+
+.locate .locate-second-list .locate-second-item .locate-text {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+  color: #939CAA;
+}
+
+.easy {
+  padding: 200px 0;
+}
+
+.easy .container {
+  position: relative;
+}
+
+.easy .easy-list .easy-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom: 120px;
+}
+
+.easy .easy-list .easy-item:nth-child(2) {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.easy .easy-list .easy-item .easy-heading {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  color: #495567;
+}
+
+.easy .easy-list .easy-item .easy-text {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+  color: #939CAA;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.easy .easy-list .easy-item::before {
+  position: absolute;
+  content: "";
+  width: 300px;
+  height: 300px;
+  background-color: #E5ECF4;
+  right: -28%;
+  border-radius: 50%;
+}
+
+.easy .easy-list .left::before {
+  position: absolute;
+  content: "";
+  width: 300px;
+  height: 300px;
+  background-color: #E5ECF4;
+  left: -28%;
+  border-radius: 50%;
+}
+
+.position-right {
+  position: absolute;
+  right: -25%;
+  top: 83%;
+}
+
+.position-right-img {
+  position: absolute;
+  right: -15%;
+  top: 17%;
+}
+
+.position-left {
+  position: absolute;
+  left: -25%;
+  top: 40%;
+}
+
+.image {
+  border-radius: 50%;
+}
+
+.sign {
+  background-image: url("../img/Mask3.png");
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 120px 0;
+}
+
+.sign .sign-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.sign .sign-box .sign-title {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  color: #FFFFFF;
+}
+
+.footer {
+  background-color: #333A44;
+}
+
+.footer .footer-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 30px 0;
+}
+
+.footer .footer-box .footer-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .footer-box .footer-list .footer-item {
+  margin-left: 30px;
+}
+
+.footer .footer-box .footer-second-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .footer-box .footer-second-list .footer-second-item {
+  margin-left: 15px;
+}
+
+.footer .footer-box .footer-second-list .footer-second-item .footer-second-link:hover {
+  color: #fff;
+}
+
+@font-face {
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/space-mono-v6-latin-regular.woff2") format("woff2"), url("../fonts/space-mono-v6-latin-regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Lexend Deca';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/lexend-deca-v7-latin-regular.woff2") format("woff2"), url("../fonts/lexend-deca-v7-latin-regular.woff") format("woff");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*::before, *::after {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ol, ul, li {
+  list-style: none;
+}
+
+.container-fluid {
+  width: 1300px;
+  margin: 0 auto;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: 'Space Mono', 'Lexend Deca';
+  position: relative;
+}
+/*# sourceMappingURL=main.css.map */
