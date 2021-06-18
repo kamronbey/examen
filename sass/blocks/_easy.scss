@@ -1,13 +1,13 @@
 .easy{
-    padding: 200px 0;
+
 
     & .container{
         position: relative;
     }
 
-    & .easy-list{
+    & .easy__list{
        
-        & .easy-item{
+        & .easy__item{
             display: flex;
             align-items: center;
             justify-content: space-around;
@@ -17,7 +17,7 @@
                flex-direction: row-reverse; 
             }
 
-            & .easy-heading{
+            & .easy__title{
                 font-family: "Space Mono";
                 font-style: normal;
                 font-weight: bold;
@@ -27,7 +27,7 @@
                 color: #495567;
             }
 
-            & .easy-text { 
+            & .easy__text { 
                 font-family: "Lexend Deca";
                 font-style: normal;
                 font-weight: normal;
@@ -38,7 +38,7 @@
                 margin-bottom: 50px;
             }
 
-            & .easy-link{
+            & .easy__link{
                 @extend %link2;
             }
 
@@ -51,6 +51,29 @@
                 right: -28%;
                 border-radius: 50%;
 
+            }
+
+            & .easy__right__img{
+                position: absolute;
+                right: -15%;
+                top: 17%;
+            }
+
+            & .easy__right{
+                position: absolute;
+                right: -25%;
+                top: 83%;
+            }
+
+            & .easy__left{
+                position: absolute;
+                left: -25%;
+                top: 40%;
+            }
+
+            & 
+            .image{
+                border-radius: 50%;
             }
         }
 
@@ -67,48 +90,4 @@
 
         }
     }
-}
-
-
-
-
-
-
-
-
-.position-right{
-    position: absolute;
-    right: -25%;
-    top: 83%;
-}
-
-.position-right-img{
-    position: absolute;
-    right: -15%;
-    top: 17%;
-}
-
-.position-left{
-    position: absolute;
-    left: -25%;
-    top: 40%;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.image{
-    border-radius: 50%;
 }

@@ -10,7 +10,8 @@
         position: relative;
     }
 
-      & .main-heading{
+      & .main__title{
+          display: inline-block;
         margin: 0;
         font-family: "Space Mono";
         font-style: normal;
@@ -21,7 +22,8 @@
         color: #FFFFFF;
     }
 
-    & .main-text{
+    & .main__text{
+    
         font-family: "Lexend Deca";
         font-style: normal;
         font-weight: normal;
@@ -32,18 +34,17 @@
         padding-left: 100px;
     }
 
-    & .main-btn{
+    & .main__btn{
         @extend %btn;
-        // margin-left: 130px;
     }
 
-    & .main-img1{
+    & .main__img1{
         position: absolute;
         left: -10%;
         top: 55%;
     }
 
-    & .main-img2{
+    & .main__img2{
         position: absolute;
         left: 53%;
         top: 53%;

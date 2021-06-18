@@ -1,21 +1,20 @@
-.locate {
-    // position: relative;
+.scooter {
     padding: 80px 0;
 
     & .container{
         position: relative;
     }
 
-    & .locate-list{
+    & .scooter__list{
         display: flex;
         align-items: center;
          
-         & .locate-item{
+         & .scooter__item{
              margin-left:200px;
              z-index: 2;
          }
  
-         & .locate-img{
+         & .scooter__item__img{
              z-index: 2;
          }
     
@@ -32,14 +31,14 @@
             }
     }
 
-    & .locate-second-list{
+    & .scooter__list--second{
            display: flex;
            align-items: center;
            justify-content: space-between;
            margin-top: 60px;
-        & .locate-second-item{
-            
-            & .locate-heading{
+
+        & .scooter__item--second{ 
+            & .scooter__item__title{
                 font-family: "Space Mono";
                 font-style: normal;
                 font-weight: bold;
@@ -50,7 +49,7 @@
                 margin-bottom: 20px;
             }
             
-            & .locate-text{
+            & .scooter__item__text{
                 font-family: "Lexend Deca";
                 font-style: normal;
                 font-weight: normal;

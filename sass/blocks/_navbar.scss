@@ -1,4 +1,21 @@
-.header-nav{
+.header{
+   
+
+    & .header__link{
+        display: inline-block;
+    }
+
+    & .header__box{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        & .header-nav__logo{
+            margin-bottom: 20px;
+        }
+    }
+
+  & .header-nav{
     z-index: 2;
     display: flex;
     align-items: center;
@@ -6,33 +23,26 @@
     padding: 15px;
     background-color: #fff;
 
-
-       & .container{
-           border: 1px solid black;
-       }
-
     
-    & .nav-list{
+    & .header-nav__list{
         display: flex;
         align-items: center;
-        margin-right: 100px;
+        padding-right: 250px;
 
-       & .nav-item{
+       & .header-nav__item{
             margin-left: 50px;
 
-           & .nav-link{
+           & .header-nav__link{
                 @extend %link;
             }
         }
+
+
         
     }
-    & .nav-btn{
+    & .header-nav__btn{
         @extend %btn;
     }
 }
-
-
-
-
-
+}
 

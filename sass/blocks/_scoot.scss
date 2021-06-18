@@ -1,17 +1,17 @@
-.sign{
-    background-image: url("../img/Mask3.png");
+.scoot{
+        background-image: url("../img/Mask3.png");
         background-position: center right;
         background-repeat: no-repeat;
         background-size: cover;
         padding: 120px 0;
 
-    & .sign-box{
+    & .scoot__box{
         display: flex;
         align-items: center;
         justify-content: space-around;
         
 
-        & .sign-title{
+        & .scoot__title{
             font-family: "Space Mono";
             font-style: normal;
             font-weight: bold;

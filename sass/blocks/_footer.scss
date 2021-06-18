@@ -3,33 +3,33 @@
   
 
 
-      & .footer-box{
+      & .footer__box{
           display: flex;
           align-items: center;
           justify-content: space-between;
           padding: 30px 0;
          
-          & .footer-list{
+          & .footer__list{
             display: flex;
             align-items: center;
 
-              & .footer-item{
+              & .footer__item{
                   margin-left: 30px;
 
-                  & .footer-link{
+                  & .footer__link{
                       @extend %link;
                   }
               }
         }
 
-        & .footer-second-list{
+        & .footer__list--second{
             display: flex;
             align-items: center;
              
-            & .footer-second-item{
+            & .footer__item--second{
                 margin-left: 15px;
 
-                & .footer-second-link:hover{
+                & .footer__item__link:hover{
                     color: #fff;
                 }
             }
