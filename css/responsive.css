@@ -49,6 +49,29 @@
         width: 480px;
         margin: 0 auto;
     }
+
+
+    .scooter .scooter__list::before{
+        display: none;
+     }
+
+     .scooter .scooter__list{
+       position: absolute;
+       bottom: 170px;
+       left: 170px;
+     }
+
+    .scooter .scooter__list .scooter__item{
+       margin-bottom: 150px;
+    }
+
+     .scooter .scooter__list--second{
+        text-align: center;
+    }
+
+    .scooter .scooter__list--second .scooter__item--second{
+      margin-bottom: 150px;
+    }
   } 
   
   
@@ -57,11 +80,31 @@
         width: 320px;
         margin: 0 auto;
     }
+
+    .scooter .scooter__list{
+      position: absolute;
+      bottom: 160px;
+      left: 95px;
+    }
+
+    .br{
+       display: none;
+    }
   } 
   
   @media(max-width: 320px){
     .container{
         width: 100%;
         margin: 0 auto;
+    }
+
+    .br1{
+      display: none;
+    }
+
+    .scooter .scooter__list{
+      position: absolute;
+      bottom: 180px;
+      left: 85px;
     }
   } 
