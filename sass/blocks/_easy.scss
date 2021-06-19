@@ -1,6 +1,5 @@
 .easy{
     padding: 100px 0;
-    background-color: #666;
 
     & .container{
         position: relative;
@@ -46,18 +45,10 @@
            & .easy__right__img{
                position: absolute;
                right: -9.5%;
-               display: none;
            }
 
-             &::before{
+             & .easy__img__top{
                 position: absolute;
-                content: "";
-                width: 300px;
-                height: 300px;
-                background-color: #E5ECF4;
-                right: -28%;
-                border-radius: 50%;
-                display: none;
             }
 
             & .easy__right{
@@ -65,14 +56,12 @@
                 right: -9.5%;
                 top: 78%;
                 z-index: 2;
-                display: none;
             }
 
             & .easy__left{
                 position: absolute;
                 left: -13%;
                 top: 40%;
-                display: none;
             }
 
             & 
@@ -90,7 +79,6 @@
                 background-color: #E5ECF4;
                 left: -28%;
                 border-radius: 50%;
-                display: none;
             }
 
         }
