@@ -48,6 +48,7 @@ body {
 
 .header .header-navbar {
   z-index: 4;
+  background-color: #fff;
   padding: 20px 0;
   -webkit-box-shadow: 0 5px 10px #d8d7d7;
           box-shadow: 0 5px 10px #d8d7d7;
