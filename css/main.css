@@ -727,6 +727,7 @@ body {
     width: 350px;
     height: 100vh;
     padding-top: 65px;
+    z-index: 2;
   }
   .header-navbar__list .header-navbar__item {
     width: 50%;
