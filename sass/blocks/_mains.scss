@@ -11,7 +11,7 @@
     }
 
       & .main__title{
-          display: inline-block;
+        display: inline-block;
         margin: 0;
         font-family: "Space Mono";
         font-style: normal;
@@ -25,13 +25,15 @@
     & .main__text{
     
         font-family: "Lexend Deca";
-        font-style: normal;
+        overflow: hidden;
+        width: 50%;
         font-weight: normal;
         font-size: 16px;
         line-height: 25px;
         color: #FFFFFF;
         padding: 30px 0;
-        padding-left: 100px;
+        margin-left: 80px;
+        
     }
 
     & .main__btn{
@@ -39,12 +41,14 @@
     }
 
     & .main__img1{
+        width: 170px;
         position: absolute;
         left: -10%;
         top: 55%;
     }
 
     & .main__img2{
+        width: 370px;
         position: absolute;
         left: 53%;
         top: 53%;
