@@ -23,7 +23,6 @@
     }
 
     & .main__text{
-    
         font-family: "Lexend Deca";
         overflow: hidden;
         width: 50%;
@@ -32,7 +31,7 @@
         line-height: 25px;
         color: #FFFFFF;
         padding: 30px 0;
-        margin-left: 80px;
+      
         
     }
 
@@ -52,6 +51,10 @@
         position: absolute;
         left: 53%;
         top: 53%;
+    }
+
+    & .main__box{
+        margin-left: 80px;
     }
 }
 

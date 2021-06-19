@@ -5,9 +5,48 @@
         margin: 0 auto;
     }
 
+
+    .main .main__box{
+        margin-left: 10px;
+    }
+
     .main .main__text{
         padding-left: 0;
     }
+
+    .main .main__img1{
+        left: -20%;
+    }
+
+    .main .main__text .br-p{
+        display: none;
+    }
+
+    .main .main__title{
+        text-align: center;
+        margin-left: 180px;
+    }
+
+    .main .main__text{
+        text-align: center;
+        margin-left: 190px;
+        
+    }
+
+    .main .main__img1{
+       display: none;
+   }
+
+   .main .main__img2{
+       width: 300px;
+       position: absolute;
+       left: -20%;
+       top: 90%;
+   }
+
+   .main .main__btn{
+       margin-left: 290px;
+   }
 
     .scooter__item{
       margin-right: -30px;
@@ -44,6 +83,14 @@
         width: 768px;
         margin: 0 auto;
     }
+
+    .header-nav__btn{
+     margin-right: 500px;
+
+    }
+
+  
+    
 
 
     .main{
@@ -186,6 +233,58 @@
         margin: 0 auto;
     }
 
+    .header .container{
+        display: flex;
+        align-items: center;
+    }
+
+    .header-nav__menu{
+        margin-left: -20%;
+    }
+
+    .header-nav__menu .hambuger{
+        display: block;
+    }
+
+    .header-nav__menu .toggle__menu{
+        display: block;
+    }
+
+    .header-nav__list{
+        justify-content: end;
+        flex-direction: column;
+        align-items: center;
+        position: fixed;
+        top: 11.5%;
+        left: -350px;
+        background-color: green;
+        width: 300px;
+        height: 100vh;
+        padding-top: 65px;
+
+        & .header-nav__item{
+            width: 100%;
+            margin-bottom: 20px;
+            font-size: 24px;
+            & .header-nav__link{
+                padding: 30px;
+                font-size: 24px;
+            }
+        }
+    }
+
+
+
+    .header-nav__btn{
+        display: none;
+    }
+
+   
+
+    .header-nav__img{
+       margin-left: 180px;
+    }
+
     .main{
         background-image: url("../img/Bitmap (3).png");
         background-position: center top;
@@ -319,6 +418,10 @@
         margin: 0 auto;
     }
 
+    .header-nav__img{
+        margin-left: 100px;
+     }
+
     .main .container .main__text .br-p{
         display: none;
     }
@@ -406,6 +509,10 @@
         width: 100%;
         margin: 0 auto;
     }
+
+    .header-nav__img{
+        margin-left: 90px;
+     }
 
     .main .container .main__text .br-p{
         display: none;
