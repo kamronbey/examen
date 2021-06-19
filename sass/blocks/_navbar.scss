@@ -3,10 +3,12 @@
     
 
     & .header-navbar{
+        z-index: 4;
        padding: 20px 0;
        box-shadow: 0 5px 10px rgb(216, 215, 215);
        position: fixed;
        width: 100%;
+      
 
         & .container{
             display: flex;
@@ -33,7 +35,8 @@
                     } 
                     
                     .header-navbar__btn{
-                        @extend %btn
+                        @extend %btn;
+
                     }
                 }
             }
@@ -95,7 +98,10 @@
             }
             
         }
-
+       
+        & .hamburger, & .toggle__menu{
+            display: none;
+        }
         
     }
 }

@@ -84,13 +84,9 @@
         margin: 0 auto;
     }
 
-    .header-nav__btn{
-     margin-right: 500px;
-
+    .header-navbar__btn{
+      margin-left: 0;
     }
-
-  
-    
 
 
     .main{
@@ -238,13 +234,30 @@
       justify-content: space-between;
   
     }
+    
 
     .header .header-navbar .container .navigation .hamburger, .toggle__menu{
       display: block;
       margin-right: 265px;
     }
 
-    & input:checked ~ .header-navbar__list{
+    .header .header-navbar .container .navigation input:checked ~ .hamburger{
+      background: transparent;
+  }
+
+  .header .header-navbar .container .navigation input:checked ~ .hamburger::before{
+      top: 0;
+      width: 30px;
+      transform: rotate(-45deg);
+  }
+
+  .header .header-navbar .container .navigation input:checked ~ .hamburger::after{
+      top: 0;
+      width: 30px;
+      transform: rotate(45deg);
+  }
+
+    .header .header-navbar .container .navigation input:checked ~ .header-navbar__list{
       left: 0;
   }
 
