@@ -5,6 +5,8 @@
     & .header-navbar{
        padding: 20px 0;
        box-shadow: 0 5px 10px rgb(216, 215, 215);
+       position: fixed;
+       width: 100%;
 
         & .container{
             display: flex;

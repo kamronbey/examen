@@ -50,6 +50,8 @@ body {
   padding: 20px 0;
   -webkit-box-shadow: 0 5px 10px #d8d7d7;
           box-shadow: 0 5px 10px #d8d7d7;
+  position: fixed;
+  width: 100%;
 }
 
 .header .header-navbar .container {
