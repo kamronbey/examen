@@ -262,9 +262,10 @@ body {
   margin-bottom: 50px;
 }
 
-.easy .easy__list .easy__item .easy__img__right {
+.easy .easy__list .easy__item .easy__right__img {
   position: absolute;
   right: -9.5%;
+  display: none;
 }
 
 .easy .easy__list .easy__item::before {
@@ -275,6 +276,7 @@ body {
   background-color: #E5ECF4;
   right: -28%;
   border-radius: 50%;
+  display: none;
 }
 
 .easy .easy__list .easy__item .easy__right {
@@ -282,12 +284,14 @@ body {
   right: -9.5%;
   top: 78%;
   z-index: 2;
+  display: none;
 }
 
 .easy .easy__list .easy__item .easy__left {
   position: absolute;
   left: -13%;
   top: 40%;
+  display: none;
 }
 
 .easy .easy__list .easy__item .image {
@@ -302,6 +306,7 @@ body {
   background-color: #E5ECF4;
   left: -28%;
   border-radius: 50%;
+  display: none;
 }
 
 .scoot {
@@ -789,14 +794,13 @@ body {
   }
   .main .container .main__title {
     text-align: center;
-    margin-left: -55px;
-    font-size: 44px;
+    margin: 0 auto;
+    font-size: 23px;
   }
   .main .container .main__text {
     text-align: center;
-    margin-left: -8px;
-    font-size: 14px;
-    width: 70%;
+    margin-left: 8px;
+    font-size: 12px;
   }
   .main .main__img2 {
     width: 300px;
