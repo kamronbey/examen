@@ -1,5 +1,6 @@
 .easy{
-
+    padding: 100px 0;
+    background-color: #666;
 
     & .container{
         position: relative;
@@ -42,32 +43,28 @@
                 @extend %link2;
             }
 
-            &::before{
-                position: absolute;
-                content: "";
-                width: 300px;
-                height: 300px;
-                background-color: #E5ECF4;
-                right: -28%;
-                border-radius: 50%;
-
-            }
+           & .easy__img__right{
+               position: absolute;
+               right: -9.5%;
+           }
 
             & .easy__right__img{
                 position: absolute;
-                right: -15%;
+                right: -9.5%;
                 top: 17%;
+                z-index: 2;
             }
 
             & .easy__right{
                 position: absolute;
-                right: -25%;
-                top: 83%;
+                right: -9.5%;
+                top: 78%;
+                z-index: 2;
             }
 
             & .easy__left{
                 position: absolute;
-                left: -25%;
+                left: -13%;
                 top: 40%;
             }
 

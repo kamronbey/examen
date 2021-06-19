@@ -28,15 +28,12 @@
              
             & .footer__item--second{
                 margin-left: 15px;
-
-                & .footer__item__link:hover{
-                    color: #fff;
-                }
             }
 
+            & .footer__item__link:hover{
+                color: #fff;
+            }
         }
 
       }
-
-   
 }

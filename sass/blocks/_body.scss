@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/space-mono-v6-latin-regular.woff2') format('woff2'),
+         url('../fonts/space-mono-v6-latin-regular.woff') format('woff');
+  }
+
+@font-face {
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/lexend-deca-v7-latin-regular.woff2') format('woff2'),
+         url('../fonts/lexend-deca-v7-latin-regular.woff') format('woff'); 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    &::before, &::after{
+      margin: 0;
+      padding: 0;
+    }
+}
+
+a{
+  text-decoration: none;
+}
+
+ol, ul, li {
+   list-style: none;
+}
+
+.container{
+  width: 1140px;
+  margin: 0 auto;
+}
+
+body{
+  font-family:  'Space Mono', 'Lexend Deca' ;
+  position: relative;
+}
